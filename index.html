@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tile Blending Test</title>
+        <link href="styles/index.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    </head>
+    <script src="index.js"></script>
+    <body onload="canvasInit()">
+        <div class="topbar">
+            <button onclick="load()">Load</button>
+            <button onclick="save()">Save</button>
+            <button onclick="zoomIn()">Zoom In</button>
+            <button onclick="zoomOut()">Zoom Out</button>
+            <button onclick="blendTest()">Tile Blend</button>
+            Tile Width: <input type="number" id="tileWidth" value="16">
+            Tile Height: <input type="number" id="tileHeight" value="16">
+        </div>
+        <canvas id="zoomedCanvas" onmousedown="mouseDown(event)" onmousemove="mouseMove(event)" onmouseup="mouseUp(event)" width="500" height="500"></canvas>
+        <br/>
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </body>
+</html>
