@@ -12,8 +12,8 @@ npm start
 ## Examples
 Starting with the following image of tiles with hard edges:
 
-<img alt="Original Image" src="images/original.png">
+<img alt="Original Image" src="images/preview4x-original.png">
 
 Blends the tiles into the following image with faded edges:
 
-<img alt="Image Tiles Blended" src="images/blended.png">
+<img alt="Image Tiles Blended" src="images/preview4x-blended.png">
