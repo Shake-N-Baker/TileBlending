@@ -13,7 +13,8 @@ function createWindow() {
 
     browserWindow.loadFile('index.html');
 
-    browserWindow.webContents.openDevTools();
+    // Uncomment the below line to debug with dev tools
+    //browserWindow.webContents.openDevTools();
 
     browserWindow.on('closed', () => {
         browserWindow = null;

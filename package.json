@@ -1,14 +1,20 @@
 {
-  "name": "tile-blending-test",
+  "name": "tile-blending",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application to test tile blending",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "Ian Baker",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.5"
+    "electron": "^7.1.5",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "appId": "com.ianscottbaker.tile-blending"
   }
 }
