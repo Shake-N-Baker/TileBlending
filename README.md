@@ -17,7 +17,7 @@ Install [Yarn](https://yarnpkg.com/en/).
 Install project dependencies with:
 
 <pre>
-yarn add
+yarn
 </pre>
 
 #### Run Locally
